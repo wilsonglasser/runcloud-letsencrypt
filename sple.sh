@@ -14,7 +14,7 @@
 # Settings
 ubuntu=$(lsb_release -r -s)
 certbotfolder=/usr/local/bin/certbot-auto
-appfolder=/srv/users/$username/apps
+appfolder=/home/$username/webapps
 conffolder=/etc/nginx-sp/vhosts.d
 acmeconfigfolder=/etc/nginx-sp/letsencrypt.d
 acmeconfigfile="$acmeconfigfolder/letsencrypt-acme-challenge.conf"
